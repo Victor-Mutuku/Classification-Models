@@ -55,20 +55,38 @@ This project focuses on **classifying wines into three categories** using the Wi
 ---
 
 ## Skills Demonstrated
-- **Data Analysis & Exploration:** Pandas, NumPy
-- **Data Visualization:** Matplotlib, Seaborn (heatmaps, histograms, bar plots, confusion matrices)
-- **Data Preprocessing:** Train-test split, handling numeric features, class analysis
-- **Machine Learning Models:** Logistic Regression, Decision Trees, Random Forest, KNN, Naive Bayes, SVM
-- **Model Evaluation:** Accuracy, Precision, Recall, F1-score, Confusion Matrix
-- **Comparative Analysis:** Evaluating multiple models to select the best-performing algorithm
+### Data Analysis & Exploration
+- Inspecting datasets with **Pandas** and **NumPy**.
+- Understanding feature distributions and correlations.
+
+### Data Cleaning & Preprocessing
+- Checking for missing values (none in this dataset).
+- Splitting data into training and test sets.
+
+### Data Visualization
+- **Matplotlib** and **Seaborn** for heatmaps, histograms, and bar plots.
+- Interpreting correlations and class distributions visually.
+
+### Machine Learning & Model Training
+- **Logistic Regression**, **Decision Tree**, **Random Forest**, **KNN**, **Naive Bayes**, **SVM**.
+- Evaluating models using **accuracy, precision, recall, F1-score, and confusion matrices**.
+- Comparing multiple classifiers to select best-performing models.
+
+### Workflow & Pipeline Management
+- End-to-end pipeline: data loading → visualization → model training → evaluation → comparison.
+
+### Programming & Technical Skills
+- Python programming: Pandas, NumPy, scikit-learn, Matplotlib, Seaborn.
+- Analytical thinking, debugging, and interpreting ML results.
+- Visualization and reporting of model outcomes.
 
 ---
 
-## Outputs
-- **Confusion matrices** for all models
-- **Classification reports** showing precision, recall, F1-score
-- **Accuracy comparison chart** for visualizing model performance
-- **Trained models** ready for predicting new wine samples
+## Outputs & Visualizations
+- **Confusion Matrices** for each model.
+- **Classification Reports** with precision, recall, F1-score.
+- **Bar chart comparing model accuracies**.
+- Best models achieved **100% accuracy** on test data (Logistic Regression, Random Forest, Naive Bayes).
+
 
 ---
-
